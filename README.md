@@ -1,25 +1,17 @@
-Datasnap Nodejs Driver
+Nodejs version compare module
 =========
 
-A small wrapper of the Datasnap REST api to make logging events easier.
+Allows you to compare version strings in the format 1.2.3.4 flexably and easily
 
 ## Installation
 
-    npm install datasnap --save
+    npm install ??
 
 ## Usage
 
-    var options = {
-        auth_header : 'base64_encoded_auth_header',
-        organization_ids: [
-            "org1"
-        ],
-        project_ids: [
-            "proj1"
-        ]
-    }
-    var datasnap = require('datasnap')(options);
-    datasnap.trackEvent({event_type:'some_event_type'});
+    var versionCompare = require('version-compare');
+    versionCompare.compareVersions('1.2.3.4','4.3.2.1');
+    // result is either 1,0,-1,undefined
 
 ## Release History
 
