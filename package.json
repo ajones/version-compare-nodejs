@@ -1,5 +1,5 @@
 {
-    "name": "datasnap",
+    "name": "version-compare",
     "version": "0.1.0",
     "author": "Aaron Jones <aaron@inburst.io>",
     "contributors" : [
@@ -8,16 +8,16 @@
             "email": "aaron@inburst.io"
         }
     ],
-    "description": "Datasnap nodejs REST api wrapper. API reference http://docs.datasnapio.apiary.io/",
+    "description": "Compares string based version numbers",
     "main": "index.js",
     "author": "",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git://github.com/ajones/datasnap-node.git"
+        "url": "git://github.com/ajones/version-compare-nodejs"
     },
     "bugs": {
-        "url": "https://github.com/ajones/datasnap-node/issues"
+        "url": "https://github.com/ajones/version-compare-nodejs/issues"
     },
     "dependencies": {},
     "devDependencies": {},
@@ -26,11 +26,8 @@
         "node": "*"
     },
     "keywords": [
-        "api",
-        "ibeacon",
-        "beacon",
-        "datasnap",
-        "analytics",
-        "tracking"
+        "version",
+        "compare",
+        "."
     ]
 }
