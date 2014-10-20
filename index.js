@@ -56,7 +56,7 @@ module.exports.compareVersions = function(v1,v2) {
                 var v1v = v1Parts[j];
                 var v1n = parseInt(v1v);
                 if (v1n > 0){
-                    return -1;
+                    return 1;
                 }
             }
         }
